@@ -1,0 +1,84 @@
+/* Reset basic margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the form on the screen */
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Form Title */
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Form labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #666666;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* Inputs, Select dropdown styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+/* Highlight inputs on focus */
+input:focus,
+select:focus {
+    border-color: #4caf50;
+}
+
+/* Register Button Styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #45a049;
+}
